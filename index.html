@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="full-browser" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
+		<title>McDonald's CDP SWITCH</title>
+		
+		<link rel="stylesheet" href="../../css/common.min.css">
+		<link rel="stylesheet" href="re-reversible.css">
+	</head>
+	<body>
+		<div class="bkg-gradient static">
+			<div class="videoWrapper re-reversable loading hidden">
+				<video id='vid_0' class="hidden" height="576" muted preload  data-video="assets/video/re-reversible-video-crew.mp4">
+					<!-- <source src="assets/video/u2_desire.mp4" type="video/mp4"> -->
+					Your browser does not support the video tag.
+				</video>
+				
+				<video id='vid_1' class="hidden" height="576" muted preload  data-video="assets/video/re-reversible-video-guest.mp4"	>
+					<!-- <source src="assets/video/u2_still_haven't_found.mp4" type="video/mp4" controls preload> -->
+					Your browser does not support the video tag.
+				</video>
+				<div class="timeline">
+					<div class="progress-bar">
+						<div class="inner">
+							<div class="progress bkg"></div>
+							<div class="progress fill"></div>
+						</div>
+					</div>
+					<div class="timeline-bar">
+						<div class="inner">
+							<!-- <a href="javascript:void(0)" class="disabled" data-time="2"></a> -->
+							<a href="javascript:void(0)" class="disabled" data-time="12"></a>
+							<a href="javascript:void(0)" class="disabled" data-time="22"></a>
+							<a href="javascript:void(0)" class="disabled" data-time="32"></a>
+						</div>
+					</div>
+					<a href="javascript:void(0)" class="btn-start" data-time="0"><p>Start</p></a>
+				</div>
+				<button class="btn btn-back white">Back</button>
+				
+				<a class="btn-toggle disabled">
+					<div class="bar">
+						<img class="img-0" src="assets/img/toggle-bar-0.png"/>
+						<img class="img-1" src="assets/img/toggle-bar-1.png"/>
+					</div>
+					<div class="medalion">
+						<img class="img-0" src="assets/img/medalion-0.png"/>
+						<img class="img-1" src="assets/img/medalion-1.png"/>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+		<!-- Load JS =============================-->
+			
+			<script src="../../js/vendor/jquery-3.2.1.min.js"></script>
+			<script src="re-reversible.js"></script>
+	</body>
+</html>
